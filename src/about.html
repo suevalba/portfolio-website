@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>About Sue V Alba</title>
     <link rel="shortcut icon" type="image/jpg" href="img/favicon.ico" />
     <link
@@ -10,10 +11,18 @@
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <img src="img/MyLogos/logo.png" alt="" style="width: 100px" />
+      <a href="index.html">
+        <img src="img/MyLogos/logo.png" alt="" class="logo" />
+      </a>
       <nav>
         <ul>
           <li><a href="index.html">Work</a></li>
@@ -23,90 +32,75 @@
       </nav>
     </header>
     <main>
-      <div>
-        <div>
-          <h1>About Me</h1>
-        </div>
-      </div>
-      <div>
-        <div>
-          <div>
-            <picture>
-              <source
-                srcset="img/MyPhotos/Me-600x400.jpg"
-                media="(max-width:767px)"
-              />
-              <img src="img/MyPhotos/Me-1200x800.jpg" alt="Sue Alba Photo" />
-            </picture>
-            <div><h2>My Story</h2></div>
-            <div>
-              <p>
-                I have a strong background in customer service. Just like in UX
-                Design, I must always listen to what customers need first. I
-                listen to their story to establish empathy and then figure out
-                for them what really the problem is. Customers loves to express
-                their frustration instead of the problem. I’ve learned to
-                communicate with them in a way that they would understand.
-                Sometimes, I don’t have the answers to their problems so with
-                the help of my team managers, supervisors and coaches, we can
-                produce solutions on how to help them better.
-              </p>
-            </div>
-            <div>
-              <a href="files/sueresume.pdf" target="_blank">View My Resume</a>
-            </div>
-            <div>
-              <h2>Skills and Tools</h2>
-              <div>
-                <h3>Relevant Skills</h3>
+      <h1>About Me</h1>
+      <picture>
+        <source
+          srcset="img/MyPhotos/Me-600x400.jpg"
+          media="(max-width:767px)"
+        />
+        <img src="img/MyPhotos/Me-1200x800.jpg" alt="Sue Alba Photo" />
+      </picture>
 
-                <div>
-                  <ul>
-                    <li><p>Conducting Surveys and Interviews</p></li>
-                    <li><p>Creating User Personas</p></li>
-                    <li><p>Creating User flows</p></li>
-                    <li><p>Journey Maps</p></li>
-                    <li><p>Sitemap</p></li>
-                    <li><p>Low-fidelity Wireframes</p></li>
-                    <li><p>Mid-fidelity Wireframes</p></li>
-                    <li><p>High-fidelity Wireframes</p></li>
-                    <li><p>Moderating Usability Testing</p></li>
-                    <li><p>Affinity Mapping</p></li>
-                    <li><p>Design Language</p></li>
-                  </ul>
-                </div>
-              </div>
-              <div>
-                <h3>Tools Used</h3>
-                <div>
-                  <ul>
-                    <li><p>Adobe XD</p></li>
-                    <li><p>Google Forms</p></li>
-                    <li><p>Optimal Sort</p></li>
-                    <li><p>Balsamiq</p></li>
-                    <li><p>Lookback</p></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
+      <div>
+        <h2>My Story</h2>
+        <p>
+          I have a strong background in customer service. Just like in UX
+          Design, I must always listen to what customers need first. I listen to
+          their story to establish empathy and then figure out for them what
+          really the problem is. Customers loves to express their frustration
+          instead of the problem. I’ve learned to communicate with them in a way
+          that they would understand. Sometimes, I don’t have the answers to
+          their problems so with the help of my team managers, supervisors and
+          coaches, we can produce solutions on how to help them better.
+        </p>
+        <a href="files/sueresume.pdf" class="button resume" target="_blank"
+          >View My Resume</a
+        >
+      </div>
+
+      <div>
+        <h2>Skills and Tools</h2>
+        <div>
+          <h3>Relevant Skills</h3>
+          <ul>
+            <li><p>Conducting Surveys and Interviews</p></li>
+            <li><p>Creating User Personas</p></li>
+            <li><p>Creating User flows</p></li>
+            <li><p>Journey Maps</p></li>
+            <li><p>Sitemap</p></li>
+            <li><p>Low-fidelity Wireframes</p></li>
+            <li><p>Mid-fidelity Wireframes</p></li>
+            <li><p>High-fidelity Wireframes</p></li>
+            <li><p>Moderating Usability Testing</p></li>
+            <li><p>Affinity Mapping</p></li>
+            <li><p>Design Language</p></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Tools Used</h3>
+          <ul>
+            <li><p>Adobe XD</p></li>
+            <li><p>Google Forms</p></li>
+            <li><p>Optimal Sort</p></li>
+            <li><p>Balsamiq</p></li>
+            <li><p>Lookback</p></li>
+          </ul>
         </div>
       </div>
     </main>
-    <footer id="contact">
-      <div>
-        <div>
-          <h2>Get in Touch</h2>
-        </div>
-        <div>
-          <p>
-            Do you like my work and want to discuss opportunities? Please get in
-            touch. Call: <a href="tel:+491234567">+49 1234567</a> or Skype me at
-            <a href="skype:hello.careerfoundry">hello.careerfoundry</a> Prefer
-            sending an email?
-          </p>
-          <div><a href="mailto:office@careerfoundry.com">Email me</a></div>
-        </div>
+    <footer>
+      <div id="contact">
+        <h2>Get in Touch</h2>
+        <p>
+          Do you like my work and want to discuss opportunities? Please get in
+          touch. Call: <a href="tel:+491234567">+49 1234567</a> or Skype me at
+          <a href="skype:hello.careerfoundry">hello.careerfoundry</a> Prefer
+          sending an email?
+        </p>
+        <a href="mailto:office@careerfoundry.com" class="button contact"
+          >Email me</a
+        >
+
         <div>
           <!--Social Media Layout and Placeholders-->
           <ul>
