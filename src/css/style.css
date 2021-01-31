@@ -48,6 +48,21 @@ img.logo {
   width: 100px;
 }
 
+img.userflow {
+  width: 100%;
+  max-width: 600px;
+}
+
+img.crazy8 {
+  width: 100%;
+  max-width: 600px;
+}
+
+img.ut {
+  width: 100%;
+  max-width: 900px;
+}
+
 a {
   color: #0000ff;
   text-decoration: none; /* No underlining */
@@ -96,24 +111,24 @@ a:active {
 
 .button.contact {
   background-color: transparent;
-  color: #ff7f50;
+  color: #000000;
   text-transform: uppercase;
-  border: 2px solid #ff7f50;
+  border: 2px solid #1d2aa3;
 }
 
 .button.contact:hover {
-  background-color: #ff7f50;
-  color: #ffffff;
+  background-color: #1d2aa3;
+  color: yellow;
 }
 
 .button.resume {
   background-color: transparent;
-  color: #ff7f50;
+  color: #104df6;
   text-transform: uppercase;
-  border: 2px solid #ff7f50;
+  border: 2px solid1d2aa3;
 }
 
 .button.resume:hover {
-  background-color: #ff7f50;
+  background-color: #2d37c2;
   color: #ffffff;
 }
