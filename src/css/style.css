@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #ffffff;
   font-family: "Montserrat", sans-serif;
@@ -8,8 +12,73 @@ body {
 }
 
 header {
-  background-color: #ffffff;
+  background-color: #ff8000;
   color: #000000;
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  margin: 10px 10px 0px 10px;
+  border-bottom: 3px solid #4a4a4a;
+  text-align: center;
+  position: relative;
+}
+
+main {
+  margin: 0px 10px;
+}
+
+footer {
+  color: #000000;
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  margin: 10px 10px 0px 10px;
+  text-align: center;
+  position: relative;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer ul > li {
+  display: inline-block;
+}
+
+nav {
+  display: inline-block;
+  width: 100%;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 9px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
+}
+
+nav > ul > li > a:visited {
+  color: #8000ff;
+}
+
+nav > ul > li > a:hover {
+  color: #0000ff;
+}
+
+nav > ul > li > a:active {
+  color: #ff0000;
 }
 
 h1,
@@ -30,7 +99,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.75em;
+  font-size: 2em;
   font-weight: 400;
 }
 
@@ -42,10 +111,6 @@ h4 {
 img {
   width: 100%;
   max-width: 1000px;
-}
-
-img.logo {
-  width: 100px;
 }
 
 img.userflow {
@@ -82,7 +147,45 @@ a:focus {
 
 a:active {
   /* selected link */
-  color: #ff0000;
+  color: #fae4e4;
+}
+
+.center {
+  text-align: center;
+}
+
+.logo {
+  max-width: 100px;
+}
+
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+
+#hero {
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+#hero h1,
+#work h2,
+.work-title h1,
+.work-title h3 {
+  text-align: center; /* Centers text */
+}
+
+#work .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #4a4a4a;
+}
+
+.category {
+  font-weight: bold;
 }
 
 .button {
