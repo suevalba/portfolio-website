@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>About Sue V Alba</title>
+    <title>SueA Portfolio</title>
     <link rel="shortcut icon" type="image/jpg" href="img/favicon.ico" />
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -11,24 +11,40 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto+Slab&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <header>
       <div class="container">
-        <a href="index.html">
-          <img src="img/MyLogos/logo.png" alt="" class="logo" />
-        </a>
-        <nav>
-          <ul>
-            <li><a href="index.html">Work</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
+        <div id="myNavtoggle" class="navtoggle">
+          <a href="index.html">
+            <img src="img/MyLogos/logo.png" alt="" class="logo" />
+          </a>
+          <nav>
+            <ul>
+              <li><a href="index.html">Work</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+              <li>
+                <a
+                  href="javascript:void(0);"
+                  class="icon"
+                  onclick="menuToggle()"
+                  ><i class="fas fa-bars"></i
+                ></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
     <main>
-      <div class="container">
+      <div id="work" class="container">
         <div class="work-title">
           <h1>Brain Flash</h1>
           <h3>An App to Learn a New Vocabulary</h3>
@@ -47,7 +63,6 @@
             forward confidently.
           </div>
         </div>
-
         <div>
           <h2>Understanding the Problem</h2>
           <picture>
@@ -57,6 +72,9 @@
             />
             <img src="img/BrainFlash/grace-1100x825.png" alt="" />
           </picture>
+        </div>
+        <div></div>
+        <div>
           <h3>User Story</h3>
           <p>
             As a special education teacher, I want to practice my British sign
@@ -66,6 +84,8 @@
             graduate of I.T. Management, I want to move to the city so that I
             could get a job in the I.T. Industry and practice what I've learned.
           </p>
+        </div>
+        <div>
           <h3>Job Story</h3>
           <p>
             When on of my students expresses something, I want to respond to
@@ -77,7 +97,9 @@
             during my commute so I can be more familiar with the things around
             me.
           </p>
-          <h2>Problem and Hypothesis Statement</h2>
+        </div>
+        <h2>Problem and Hypothesis Statement</h2>
+        <div>
           <h3>Problem Statement</h3>
           <p>
             Grace needs a way to adapt to her new environment by understanding
@@ -92,30 +114,31 @@
             pronunciation is correct.
           </p>
         </div>
-
         <div>
           <h2>User Flows</h2>
           <picture>
-            <img
-              src="img/BrainFlash/BFtrackprogressuserflow.png"
-              alt=""
-              class="userflow"
-            />
-            <img
-              src="img/BrainFlash/BFsignupuserflow.png"
-              alt=""
-              class="userflow"
-            />
+            <div class="col-md-6">
+              <img
+                src="img/BrainFlash/BFtrackprogressuserflow.png"
+                alt=""
+                class="userflow"
+              />
+            </div>
+            <div class="col-md-6">
+              <img
+                src="img/BrainFlash/BFsignupuserflow.png"
+                alt=""
+                class="userflow"
+              />
+            </div>
           </picture>
         </div>
-
         <div>
           <h2>Paper Sketches</h2>
           <p>
             Crazy 8s and dot voting helped me decide my initial design ideas at
             an early stage
           </p>
-
           <picture>
             <source
               srcset="img/BrainFlash/crazy8_600x400.png"
@@ -128,14 +151,12 @@
             />
           </picture>
         </div>
-
         <div>
           <h2>Usability Testing</h2>
           <p>
             I received real user feedback on the Wireframes and prototypes and
             here's what that they think
           </p>
-
           <picture>
             <source
               srcset="img/BrainFlash/UT-600x400.png"
@@ -147,37 +168,41 @@
 
         <div>
           <h2>Prototyping and Iteration</h2>
-
           <p>
             I made changes to improve Brain Flash according to the feedback from
             users and below is a link to the prototype
           </p>
-          <div>
+          <div class="center">
             <a
               href="https://marvelapp.com/prototype/46fdhaa/screen/62553292"
               target="_blank"
               >Brain Flash Low-fidelity Prototype</a
             >
           </div>
-
           <picture>
             <img
+              class="col-md-6"
               src="img/BrainFlash/iteration_improvements_1200x800.jpg"
               alt=""
             />
-            <img src="img/BrainFlash/iteration_newcard_1200x800.jpg" alt="" />
             <img
+              class="col-md-6"
+              src="img/BrainFlash/iteration_newcard_1200x800.jpg"
+              alt=""
+            />
+            <img
+              class="col-md-6"
               src="img/BrainFlash/iteration_practicingcards_1200x800.jpg"
               alt=""
             />
             <img
+              class="col-md-6"
               src="img/BrainFlash/iteration_settingsquiz_1200x800.jpg"
               alt=""
             />
           </picture>
         </div>
-
-        <div>
+        <div class="row">
           <h2>Learning Challenges</h2>
           <ul>
             <li>Think about the concept first, then design later.</li>
