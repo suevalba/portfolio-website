@@ -208,7 +208,6 @@ a:visited {
 a:hover,
 a:focus {
   color: #0000ff;
-  text-decoration: underline;
   /* Underlining when hovering over a link */
 }
 
@@ -263,7 +262,7 @@ a:active {
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #202020;
-  color: #ffffff; /* needed to override the default link color */
+  color: #ffdf6c; /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
   border-radius: 40px;
@@ -272,9 +271,8 @@ a:active {
 }
 
 .button:visited {
-  color: #ffffff;
-  background-color: #3f3f3f;
-  /* needed to override the default link color */
+  color: #ffdf6c;
+  background-color: #a0a0a0;
 }
 
 .button:hover {
@@ -303,7 +301,7 @@ a:active {
   background-color: transparent;
   color: #104df6;
   text-transform: uppercase;
-  border: 2px solid1d2aa3;
+  border-bottom: 5px #f61010;
 }
 
 .button.resume:hover {
@@ -335,6 +333,7 @@ a:active {
 .navtoggle.responsive nav {
   padding: 24px 0 0;
 }
+
 .navtoggle.responsive li {
   display: block;
   padding: 10px 0;
@@ -384,6 +383,15 @@ a:active {
 
   .navtoggle li:last-child {
     display: none;
+  }
+
+  .navtoggle.responsive li {
+    padding: 0;
+    border-top: 0;
+  }
+
+  .navtoggle.responsive nav {
+    padding: 0;
   }
 
   .row::after {
