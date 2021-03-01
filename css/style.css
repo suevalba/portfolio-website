@@ -107,7 +107,7 @@ h4 {
 /* CSS Animation */
 svg.berlin-illustration {
   width: 100%;
-  max-width: 100% auto;
+  max-width: 100%;
 }
 
 /* sun animation property */
@@ -288,7 +288,6 @@ a:active {
   font-weight: 400;
   padding: 10px;
   border-radius: 40px;
-  border-bottom: 2px solid  #707070; /* width of the border, type, color */
   transition: 0.8s opacity;
 }
 
@@ -304,7 +303,7 @@ a:active {
 
 .button:active {
   color: white;
-  border: 2px solid1d2aa3;
+  border: 2px;
 }
 
 .button.contact {
