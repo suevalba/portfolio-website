@@ -12,7 +12,7 @@ body {
 }
 
 header {
-  background-color: #3f3f3f;
+  background-color: #ebf0ff;
   color: #ffffff;
   padding-top: 10px;
   padding: 10px 0 4px;
@@ -63,7 +63,7 @@ nav > ul > li > a {
 }
 
 nav > ul > li > a:visited {
-  color: #ffdf6c;
+  color: #0502aa;
   bottom: 0px;
 }
 
@@ -221,7 +221,7 @@ a:active {
 }
 
 .logo {
-  max-width: 100px;
+  max-width: 90px;
   border-radius: 5%;
 }
 
