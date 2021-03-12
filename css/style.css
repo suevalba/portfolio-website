@@ -73,7 +73,7 @@ nav > ul > li > a:hover {
 }
 
 nav > ul > li > a:active {
-  color: #ffe997;
+  color: #000000;
 }
 
 h1,
@@ -213,7 +213,7 @@ a:focus {
 
 a:active {
   /* selected link */
-  color: #fae4e4;
+  color: #000000;
 }
 
 .center {
